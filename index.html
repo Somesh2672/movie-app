@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>imdb clone</title>
+</head>
+<body>
+    <div class="title">
+        <h1>IMBD MOVIE APP</h1>
+    </div>
+    <div class="search">
+       <div class="api">
+        <input type="password" name="apiKey" id="apiKey" placeholder="API_KEY">
+        <i class="fa-solid fa-key"></i>
+       </div>
+        <div class="searchbar">
+            <input type="search" name="search" id="search" placeholder="Search">
+            <button type="submit" id="findMovie"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <div class="movieCard">
+        <template id="movieDetail">
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="" alt="image">
+                </div>
+                <div class="nameNum">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </template>
+       
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
